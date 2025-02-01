@@ -14,7 +14,7 @@ function addTask() {
         const li =
         document.createElement('li');
         li.innerHTML =
-        ${taskText}
+        $taskText}
         <button
         class="deleteBtn">Delete</button>;
         taskList.appendChild(li);
@@ -37,4 +37,3 @@ function addTask() {
     }
 });
 taskList.addEventListener('click',deleteTask);     
-}
